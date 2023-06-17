@@ -466,7 +466,7 @@ exports.productlistPage = async (req, res) => {
       // .skip((page - 1) * perPage)
       .limit(perPage)
       .sort({ createdAt: -1 });
-    console.log("all produycts", products);
+   
 
     res.status(200).send({
       success: true,
@@ -552,12 +552,10 @@ exports.randomProducts = async (req, res) => {
 
 exports.newLaunched = async (req, res) => {
   try {
-    // Fetch top-rated products based on your criteria
-    const products = await ProductsModel.find()
-      // .sort({
-      //   createdAt: -1,
-      // }) 
-      .limit(8); 
+    const products = await ProductsModel.aggregate([
+      { $sort: { createdAt: -1 } },
+      { $limit: 8 }
+    ]);
 
     res.status(200).json({
       success: true,
@@ -571,3 +569,4 @@ exports.newLaunched = async (req, res) => {
     });
   }
 };
+
