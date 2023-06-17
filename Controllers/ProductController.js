@@ -511,7 +511,7 @@ exports.recommendedProducts = async (req, res) => {
   try {
     // Fetch top-rated products based on your criteria
     const products = await ProductsModel.find()
-      .sort({ totalrating: -1 }) // Sorting in descending order of totalrating field
+      // .sort({ totalrating: -1 }) 
       .limit(8); // Adjust the limit based on how many top-rated products you want to fetch
 
     res.status(200).json({
