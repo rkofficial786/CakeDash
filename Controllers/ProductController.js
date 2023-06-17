@@ -509,10 +509,10 @@ exports.productCategorywise = async (req, res) => {
 
 exports.recommendedProducts = async (req, res) => {
   try {
-    // Fetch top-rated products based on your criteria
-    const products = await ProductsModel.find()
-      // .sort({ totalrating: -1 }) 
-      .limit(8); // Adjust the limit based on how many top-rated products you want to fetch
+    const products = await ProductsModel.aggregate([
+      { $sort: { totalrating: -1 } },
+      { $limit: 8 }
+    ]);
 
     res.status(200).json({
       success: true,
@@ -526,6 +526,7 @@ exports.recommendedProducts = async (req, res) => {
     });
   }
 };
+
 
 //random products
 
@@ -553,10 +554,10 @@ exports.newLaunched = async (req, res) => {
   try {
     // Fetch top-rated products based on your criteria
     const products = await ProductsModel.find()
-      .sort({
-        createdAt: -1,
-      }) // Sorting in descending order of totalrating field
-      .limit(8); // Adjust the limit based on how many top-rated products you want to fetch
+      // .sort({
+      //   createdAt: -1,
+      // }) 
+      .limit(8); 
 
     res.status(200).json({
       success: true,
