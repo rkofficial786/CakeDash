@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.822dc34f.css",
-    "main.js": "/static/js/main.840c1e5e.js",
+    "main.js": "/static/js/main.416e9c6e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/diana-light-Q7W8NF_N5Fo-unsplash (1).jpg": "/static/media/diana-light-Q7W8NF_N5Fo-unsplash (1).e303f0595bb27e1ec8e0.jpg",
     "static/media/amirali-mirhashemian-EfkMkUXs0fU-unsplash (1).jpg": "/static/media/amirali-mirhashemian-EfkMkUXs0fU-unsplash (1).7385f5fbd7971af9da5b.jpg",
@@ -18,11 +18,11 @@
     "static/media/Blue_web.jpg": "/static/media/Blue_web.6830f7b455fe5fe7318f.jpg",
     "index.html": "/index.html",
     "main.822dc34f.css.map": "/static/css/main.822dc34f.css.map",
-    "main.840c1e5e.js.map": "/static/js/main.840c1e5e.js.map",
+    "main.416e9c6e.js.map": "/static/js/main.416e9c6e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.822dc34f.css",
-    "static/js/main.840c1e5e.js"
+    "static/js/main.416e9c6e.js"
   ]
 }
