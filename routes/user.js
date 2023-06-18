@@ -10,13 +10,7 @@ const {auth,isAdmin} = require("../middlewares/auth");
 router.post("/login", login);
 router.post("/signup", signup);
 
-//testing protected routes for single middleware
-router.get("/test", auth, isAdmin, (req,res) =>{
-    res.json({
-        success:true,
-        message:'Welcome to the Protected route for TESTS',
-    });
-});
+
 
 router.post("/forgot-password" , forgotPassword)
 
@@ -31,9 +25,7 @@ router.get("/admin-auth",auth,isAdmin,(req,res)=>{
 })
 
 router.put("/profile" ,auth, updateProfile)
-// router.get("/checkout",auth,(req,res)=>{
-//     res.status(200).send({ok:true})
-// })
+
 
 router.get("/orders" ,auth,getOrders)
 router.get("/all-orders" ,auth,isAdmin,getAllOrders)

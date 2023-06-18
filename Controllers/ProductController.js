@@ -341,12 +341,12 @@ exports.brainTreePaymentController = async (req, res) => {
       });
     });
 
-    // Calculate the payment amount to be saved in the database
-    const paymentAmount = totalPrice; // Use the discounted price instead of the original price
+   
+    const paymentAmount = totalPrice; 
 
     let newTransaction = gateway.transaction.sale(
       {
-        amount: paymentAmount, // Use the calculated discounted price instead of the original total
+        amount: paymentAmount, 
         paymentMethodNonce: nonce,
         options: {
           submitForSettlement: true,

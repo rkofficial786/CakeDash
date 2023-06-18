@@ -6,8 +6,7 @@ require("dotenv").config();
 
 exports.auth = (req,res, next) => {
     try{
-        //extract JWT token
-        //PENDING : other ways to fetch token
+        
 
        
        
