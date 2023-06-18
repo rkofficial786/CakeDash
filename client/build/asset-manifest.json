@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4721a50e.css",
-    "main.js": "/static/js/main.b18c6b03.js",
+    "main.css": "/static/css/main.68b85bea.css",
+    "main.js": "/static/js/main.fe45f46e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/diana-light-Q7W8NF_N5Fo-unsplash (1).jpg": "/static/media/diana-light-Q7W8NF_N5Fo-unsplash (1).e303f0595bb27e1ec8e0.jpg",
     "static/media/amirali-mirhashemian-EfkMkUXs0fU-unsplash (1).jpg": "/static/media/amirali-mirhashemian-EfkMkUXs0fU-unsplash (1).7385f5fbd7971af9da5b.jpg",
@@ -9,20 +9,20 @@
     "static/media/michaela-baum-VnM6_liIRJ0-unsplash.jpg": "/static/media/michaela-baum-VnM6_liIRJ0-unsplash.a13d625d18ee1b18d635.jpg",
     "static/media/Dana-Whitley3.jpg": "/static/media/Dana-Whitley3.bc9e18a507e5af9338ee.jpg",
     "static/media/childrens-portrait-photographer-dazzling-diva-photography-32.jpg": "/static/media/childrens-portrait-photographer-dazzling-diva-photography-32.e7cbfdb1cb797e93e499.jpg",
+    "static/media/text.png": "/static/media/text.a1b89b6e08c9179aaf39.png",
     "static/media/Cake-Top-Banner_web_2.jpg": "/static/media/Cake-Top-Banner_web_2.f09a209ccb6e5af75852.jpg",
-    "static/media/text.png": "/static/media/text.e12875a82a43f1978755.png",
     "static/media/Red_web.jpg": "/static/media/Red_web.78e7166e66708b1be769.jpg",
     "static/media/Pinata-Cakes_web.jpg": "/static/media/Pinata-Cakes_web.f44d3f78df1303290dc4.jpg",
     "static/media/Dry-Cakess_web.jpg": "/static/media/Dry-Cakess_web.44a9bfa8d29b3ffd9acf.jpg",
     "static/media/choco.jpg": "/static/media/choco.2b5c2af5320b74c8e8d5.jpg",
     "static/media/Blue_web.jpg": "/static/media/Blue_web.6830f7b455fe5fe7318f.jpg",
     "index.html": "/index.html",
-    "main.4721a50e.css.map": "/static/css/main.4721a50e.css.map",
-    "main.b18c6b03.js.map": "/static/js/main.b18c6b03.js.map",
+    "main.68b85bea.css.map": "/static/css/main.68b85bea.css.map",
+    "main.fe45f46e.js.map": "/static/js/main.fe45f46e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4721a50e.css",
-    "static/js/main.b18c6b03.js"
+    "static/css/main.68b85bea.css",
+    "static/js/main.fe45f46e.js"
   ]
 }
