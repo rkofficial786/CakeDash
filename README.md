@@ -40,7 +40,7 @@ To use CakeDash , follow these steps:
 2. Install the required dependencies by running 
 
   ```bash
-  npm start
+  npm Install
 ```
 
  in the root directory.
@@ -80,6 +80,7 @@ The Online Cake Order App includes the following features:
 - **Payment Options**: Multiple secure payment methods to choose from during checkout.
 - **User Profile Updates:** Manage personal information, change passwords, and update profile details.
 - **Order Tracking:** Track the status of placed orders, from confirmation to delivery.
+- **Email Notification:** User receives email Notification on order placed or order status updated.
 
 ***For Admins***
 - **Category Creation:** Admins can create and manage cake categories to organize the product catalog.
@@ -206,7 +207,7 @@ We value your contributions and strive to create an inclusive and collaborative 
 
 ## Deployment
 
-project is already deployed on `cyclic`
+CakeDash is already deployed on `cyclic`
 
 
 https://cakedash.cyclic.app/
