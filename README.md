@@ -211,3 +211,4 @@ CakeDash is already deployed on `cyclic`
 
 
 https://cakedash.cyclic.app/
+https://cakedash-production.up.railway.app/
