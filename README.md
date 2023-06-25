@@ -190,7 +190,7 @@ The Online Cake Order App backend provides a set of REST APIs with the base URL 
 
 ## License
 
-The CakeDash App project is currently not licensed. Licensing determines how others can use, modify, and distribute your code. Without a license, the default copyright laws apply, which means others cannot reproduce, distribute, or create derivative works of your code. It's important to consider choosing an appropriate open-source license for your project to provide clarity on how others can use and contribute to it. You can learn more about different open-source licenses and choose one that aligns with your project's goals and requirements.
+The CakeDash App project is currently not licensed. 
 
 
 ## Contributing
